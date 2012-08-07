@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB76588315D14542005EE912 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB76588215D14542005EE912 /* UIKit.framework */; };
+		CB76588515D14542005EE912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB76588415D14542005EE912 /* Foundation.framework */; };
+		CB76588715D14542005EE912 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB76588615D14542005EE912 /* CoreGraphics.framework */; };
+		CB76588D15D14542005EE912 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB76588B15D14542005EE912 /* InfoPlist.strings */; };
+		CB76588F15D14542005EE912 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB76588E15D14542005EE912 /* main.m */; };
+		CB76589315D14542005EE912 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB76589215D14542005EE912 /* AppDelegate.m */; };
+		CB76589615D14542005EE912 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB76589415D14542005EE912 /* MainStoryboard.storyboard */; };
+		CB76589915D14542005EE912 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB76589815D14542005EE912 /* FirstViewController.m */; };
+		CB76589B15D14542005EE912 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = CB76589A15D14542005EE912 /* first.png */; };
+		CB76589D15D14542005EE912 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB76589C15D14542005EE912 /* first@2x.png */; };
+		CB7658A015D14542005EE912 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB76589F15D14542005EE912 /* SecondViewController.m */; };
+		CB7658A215D14542005EE912 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = CB7658A115D14542005EE912 /* second.png */; };
+		CB7658A415D14542005EE912 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB7658A315D14542005EE912 /* second@2x.png */; };
+		CB7658AC15D14542005EE912 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7658AB15D14542005EE912 /* SenTestingKit.framework */; };
+		CB7658AD15D14542005EE912 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB76588215D14542005EE912 /* UIKit.framework */; };
+		CB7658AE15D14542005EE912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB76588415D14542005EE912 /* Foundation.framework */; };
+		CB7658B615D14542005EE912 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB7658B415D14542005EE912 /* InfoPlist.strings */; };
+		CB7658B915D14542005EE912 /* AvtoVeloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7658B815D14542005EE912 /* AvtoVeloTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB7658AF15D14542005EE912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB76587515D14541005EE912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB76587D15D14542005EE912;
+			remoteInfo = AvtoVelo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB76587E15D14542005EE912 /* AvtoVelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvtoVelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB76588215D14542005EE912 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB76588415D14542005EE912 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB76588615D14542005EE912 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB76588A15D14542005EE912 /* AvtoVelo-Info.plist */ = {isa = PBXFileReference; path = "AvtoVelo-Info.plist"; sourceTree = "<group>"; };
+		CB76588C15D14542005EE912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB76588E15D14542005EE912 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB76589015D14542005EE912 /* AvtoVelo-Prefix.pch */ = {isa = PBXFileReference; path = "AvtoVelo-Prefix.pch"; sourceTree = "<group>"; };
+		CB76589115D14542005EE912 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB76589215D14542005EE912 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB76589515D14542005EE912 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CB76589715D14542005EE912 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		CB76589815D14542005EE912 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CB76589A15D14542005EE912 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		CB76589C15D14542005EE912 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		CB76589E15D14542005EE912 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		CB76589F15D14542005EE912 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CB7658A115D14542005EE912 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		CB7658A315D14542005EE912 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		CB7658AA15D14542005EE912 /* AvtoVeloTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvtoVeloTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7658AB15D14542005EE912 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CB7658B315D14542005EE912 /* AvtoVeloTests-Info.plist */ = {isa = PBXFileReference; path = "AvtoVeloTests-Info.plist"; sourceTree = "<group>"; };
+		CB7658B515D14542005EE912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB7658B715D14542005EE912 /* AvtoVeloTests.h */ = {isa = PBXFileReference; path = AvtoVeloTests.h; sourceTree = "<group>"; };
+		CB7658B815D14542005EE912 /* AvtoVeloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvtoVeloTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB76587B15D14542005EE912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB76588315D14542005EE912 /* UIKit.framework in Frameworks */,
+				CB76588515D14542005EE912 /* Foundation.framework in Frameworks */,
+				CB76588715D14542005EE912 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7658A615D14542005EE912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7658AC15D14542005EE912 /* SenTestingKit.framework in Frameworks */,
+				CB7658AD15D14542005EE912 /* UIKit.framework in Frameworks */,
+				CB7658AE15D14542005EE912 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB76587315D14541005EE912 = {
+			isa = PBXGroup;
+			children = (
+				CB76588815D14542005EE912 /* AvtoVelo */,
+				CB7658B115D14542005EE912 /* AvtoVeloTests */,
+				CB76588115D14542005EE912 /* Frameworks */,
+				CB76587F15D14542005EE912 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB76587F15D14542005EE912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB76587E15D14542005EE912 /* AvtoVelo.app */,
+				CB7658AA15D14542005EE912 /* AvtoVeloTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB76588115D14542005EE912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB76588215D14542005EE912 /* UIKit.framework */,
+				CB76588415D14542005EE912 /* Foundation.framework */,
+				CB76588615D14542005EE912 /* CoreGraphics.framework */,
+				CB7658AB15D14542005EE912 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB76588815D14542005EE912 /* AvtoVelo */ = {
+			isa = PBXGroup;
+			children = (
+				CB76589115D14542005EE912 /* AppDelegate.h */,
+				CB76589215D14542005EE912 /* AppDelegate.m */,
+				CB76589415D14542005EE912 /* MainStoryboard.storyboard */,
+				CB76589715D14542005EE912 /* FirstViewController.h */,
+				CB76589815D14542005EE912 /* FirstViewController.m */,
+				CB76589A15D14542005EE912 /* first.png */,
+				CB76589C15D14542005EE912 /* first@2x.png */,
+				CB76589E15D14542005EE912 /* SecondViewController.h */,
+				CB76589F15D14542005EE912 /* SecondViewController.m */,
+				CB7658A115D14542005EE912 /* second.png */,
+				CB7658A315D14542005EE912 /* second@2x.png */,
+				CB76588915D14542005EE912 /* Supporting Files */,
+			);
+			path = AvtoVelo;
+			sourceTree = "<group>";
+		};
+		CB76588915D14542005EE912 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB76588A15D14542005EE912 /* AvtoVelo-Info.plist */,
+				CB76588B15D14542005EE912 /* InfoPlist.strings */,
+				CB76588E15D14542005EE912 /* main.m */,
+				CB76589015D14542005EE912 /* AvtoVelo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB7658B115D14542005EE912 /* AvtoVeloTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB7658B715D14542005EE912 /* AvtoVeloTests.h */,
+				CB7658B815D14542005EE912 /* AvtoVeloTests.m */,
+				CB7658B215D14542005EE912 /* Supporting Files */,
+			);
+			path = AvtoVeloTests;
+			sourceTree = "<group>";
+		};
+		CB7658B215D14542005EE912 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB7658B315D14542005EE912 /* AvtoVeloTests-Info.plist */,
+				CB7658B415D14542005EE912 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB76587D15D14542005EE912 /* AvtoVelo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7658BC15D14542005EE912 /* Build configuration list for PBXNativeTarget "AvtoVelo" */;
+			buildPhases = (
+				CB76587A15D14542005EE912 /* Sources */,
+				CB76587B15D14542005EE912 /* Frameworks */,
+				CB76587C15D14542005EE912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvtoVelo;
+			productName = AvtoVelo;
+			productReference = CB76587E15D14542005EE912 /* AvtoVelo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB7658A915D14542005EE912 /* AvtoVeloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7658BF15D14542005EE912 /* Build configuration list for PBXNativeTarget "AvtoVeloTests" */;
+			buildPhases = (
+				CB7658A515D14542005EE912 /* Sources */,
+				CB7658A615D14542005EE912 /* Frameworks */,
+				CB7658A715D14542005EE912 /* Resources */,
+				CB7658A815D14542005EE912 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB7658B015D14542005EE912 /* PBXTargetDependency */,
+			);
+			name = AvtoVeloTests;
+			productName = AvtoVeloTests;
+			productReference = CB7658AA15D14542005EE912 /* AvtoVeloTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB76587515D14541005EE912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CB76587815D14541005EE912 /* Build configuration list for PBXProject "AvtoVelo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB76587315D14541005EE912;
+			productRefGroup = CB76587F15D14542005EE912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB76587D15D14542005EE912 /* AvtoVelo */,
+				CB7658A915D14542005EE912 /* AvtoVeloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB76587C15D14542005EE912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB76588D15D14542005EE912 /* InfoPlist.strings in Resources */,
+				CB76589615D14542005EE912 /* MainStoryboard.storyboard in Resources */,
+				CB76589B15D14542005EE912 /* first.png in Resources */,
+				CB76589D15D14542005EE912 /* first@2x.png in Resources */,
+				CB7658A215D14542005EE912 /* second.png in Resources */,
+				CB7658A415D14542005EE912 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7658A715D14542005EE912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7658B615D14542005EE912 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB7658A815D14542005EE912 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB76587A15D14542005EE912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB76588F15D14542005EE912 /* main.m in Sources */,
+				CB76589315D14542005EE912 /* AppDelegate.m in Sources */,
+				CB76589915D14542005EE912 /* FirstViewController.m in Sources */,
+				CB7658A015D14542005EE912 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB7658A515D14542005EE912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7658B915D14542005EE912 /* AvtoVeloTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB7658B015D14542005EE912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB76587D15D14542005EE912 /* AvtoVelo */;
+			targetProxy = CB7658AF15D14542005EE912 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB76588B15D14542005EE912 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB76588C15D14542005EE912 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB76589415D14542005EE912 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB76589515D14542005EE912 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CB7658B415D14542005EE912 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB7658B515D14542005EE912 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB7658BA15D14542005EE912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CB7658BB15D14542005EE912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB7658BD15D14542005EE912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvtoVelo/AvtoVelo-Prefix.pch";
+				INFOPLIST_FILE = "AvtoVelo/AvtoVelo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB7658BE15D14542005EE912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvtoVelo/AvtoVelo-Prefix.pch";
+				INFOPLIST_FILE = "AvtoVelo/AvtoVelo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB7658C015D14542005EE912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AvtoVelo.app/AvtoVelo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvtoVelo/AvtoVelo-Prefix.pch";
+				INFOPLIST_FILE = "AvtoVeloTests/AvtoVeloTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CB7658C115D14542005EE912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AvtoVelo.app/AvtoVelo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvtoVelo/AvtoVelo-Prefix.pch";
+				INFOPLIST_FILE = "AvtoVeloTests/AvtoVeloTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB76587815D14541005EE912 /* Build configuration list for PBXProject "AvtoVelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7658BA15D14542005EE912 /* Debug */,
+				CB7658BB15D14542005EE912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7658BC15D14542005EE912 /* Build configuration list for PBXNativeTarget "AvtoVelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7658BD15D14542005EE912 /* Debug */,
+				CB7658BE15D14542005EE912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB7658BF15D14542005EE912 /* Build configuration list for PBXNativeTarget "AvtoVeloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7658C015D14542005EE912 /* Debug */,
+				CB7658C115D14542005EE912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB76587515D14541005EE912 /* Project object */;
+}
