@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *wv;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *backItemButton;
+
+- (IBAction)backWebView:(id)sender;
 
 @end

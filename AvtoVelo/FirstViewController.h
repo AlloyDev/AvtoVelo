@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+//for Velo
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController<UIWebViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UIWebView *wv;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *backItemButton;
+
+
+- (IBAction)backWebView:(id)sender;
 
 @end

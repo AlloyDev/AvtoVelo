@@ -42,26 +42,26 @@
 		CB76588215D14542005EE912 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB76588415D14542005EE912 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CB76588615D14542005EE912 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CB76588A15D14542005EE912 /* AvtoVelo-Info.plist */ = {isa = PBXFileReference; path = "AvtoVelo-Info.plist"; sourceTree = "<group>"; };
+		CB76588A15D14542005EE912 /* AvtoVelo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AvtoVelo-Info.plist"; sourceTree = "<group>"; };
 		CB76588C15D14542005EE912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB76588E15D14542005EE912 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CB76589015D14542005EE912 /* AvtoVelo-Prefix.pch */ = {isa = PBXFileReference; path = "AvtoVelo-Prefix.pch"; sourceTree = "<group>"; };
-		CB76589115D14542005EE912 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB76589015D14542005EE912 /* AvtoVelo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AvtoVelo-Prefix.pch"; sourceTree = "<group>"; };
+		CB76589115D14542005EE912 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB76589215D14542005EE912 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CB76589515D14542005EE912 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		CB76589715D14542005EE912 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		CB76589715D14542005EE912 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		CB76589815D14542005EE912 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		CB76589A15D14542005EE912 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		CB76589C15D14542005EE912 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		CB76589E15D14542005EE912 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		CB76589E15D14542005EE912 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		CB76589F15D14542005EE912 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		CB7658A115D14542005EE912 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		CB7658A315D14542005EE912 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		CB7658AA15D14542005EE912 /* AvtoVeloTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvtoVeloTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7658AB15D14542005EE912 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CB7658B315D14542005EE912 /* AvtoVeloTests-Info.plist */ = {isa = PBXFileReference; path = "AvtoVeloTests-Info.plist"; sourceTree = "<group>"; };
+		CB7658B315D14542005EE912 /* AvtoVeloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AvtoVeloTests-Info.plist"; sourceTree = "<group>"; };
 		CB7658B515D14542005EE912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CB7658B715D14542005EE912 /* AvtoVeloTests.h */ = {isa = PBXFileReference; path = AvtoVeloTests.h; sourceTree = "<group>"; };
+		CB7658B715D14542005EE912 /* AvtoVeloTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvtoVeloTests.h; sourceTree = "<group>"; };
 		CB7658B815D14542005EE912 /* AvtoVeloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvtoVeloTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -337,6 +337,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Станислав Цыганов (WDJQ4L62J6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -352,6 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "57C1BDF1-1F66-43A7-B61A-E0D5741D0741";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -363,6 +365,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Станислав Цыганов (WDJQ4L62J6)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -372,6 +375,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "57C1BDF1-1F66-43A7-B61A-E0D5741D0741";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
